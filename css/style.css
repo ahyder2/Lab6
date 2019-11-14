@@ -1,0 +1,41 @@
+nav#main-navbar{
+	background-color: blue;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+div#navbar-container{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+nav#main-navbar ul{
+	list-style-type: none;
+	position: relative;
+	float: left;
+	left: 50%;
+}
+
+nav#main-navbar li{
+	float: left;
+	right: 50%;
+
+}
+
+nav#main-navbar li a{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px 20px;
+}
+
+nav#main-navbar li a:hover{
+	background-color: #000;
+}
+
+li#onpage{
+	text-decoration: underline overline;
+}
